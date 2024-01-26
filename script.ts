@@ -1,9 +1,14 @@
 class School
 {
+<<<<<<< HEAD
     // implement 'add area', 'remove area', 'add lecturer', and 'remove lecturer' methods
 
     _areas: Area[] = [];
     _lecturers: Lecturer[] = []; // Name, surname, position, company, experience, courses, contacts
+=======
+    _areas: Area[] = [];
+    _lecturers: Lecturer[] = [];
+>>>>>>> 77daa452a68f486216b0cd11ebd9f1fd8e4039da
 
     get areas (): Area[]
     {
@@ -67,7 +72,10 @@ class Lecturer
 
 class Area
 {
+<<<<<<< HEAD
     // implement getters for fields and 'add/remove level' methods
+=======
+>>>>>>> 77daa452a68f486216b0cd11ebd9f1fd8e4039da
     _levels: Level[] = [];
     _name: string;
 
@@ -107,7 +115,12 @@ class Area
 
 class Level
 {
+<<<<<<< HEAD
         _groups: Group[] = [];
+=======
+
+    _groups: Group[] = [];
+>>>>>>> 77daa452a68f486216b0cd11ebd9f1fd8e4039da
     _name: string;
     _description: string;
 
@@ -158,6 +171,10 @@ class Level
 
 class Group
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 77daa452a68f486216b0cd11ebd9f1fd8e4039da
     _area!: string;
     _status!: string;
     _students: Student[] = [];
@@ -245,8 +262,13 @@ class Student
     _firstName: string;
     _lastName: string;
     _birthYear: number;
+<<<<<<< HEAD
     _grades: { [workName: string]: number; } = {}; 
     _visits: { [lesson: string]: boolean; } = {}; 
+=======
+    _grades: { [workName: string]: number; } = {};
+    _visits: { [lesson: string]: boolean; } = {};
+>>>>>>> 77daa452a68f486216b0cd11ebd9f1fd8e4039da
 
     constructor ( firstName: string, lastName: string, birthYear: number )
     {
